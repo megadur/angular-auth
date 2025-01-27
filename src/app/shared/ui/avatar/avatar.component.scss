@@ -16,5 +16,6 @@ $radius: 0.75rem;
   width: $size;
   height: $size;
 
-  @apply aa--bg-secondary aa--text-primary;
+  background-color: var(--aa-bg-secondary);
+  color: var(--aa-text-primary);
 }
